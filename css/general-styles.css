@@ -878,7 +878,7 @@ cart-table, inputs and buttons */
   padding-top: 45px;
   padding-bottom: 94px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 15px;
 }

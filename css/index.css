@@ -589,51 +589,6 @@
   }
 }
 
-/* .featured-products .best-sellers__products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 12px;
-  min-width: 360px;
-} */
-
-/* .featured-products .best-sellers__products li {
-  margin: 0 35px;
-}
-
-@media screen and (max-width: 768px) {
-  .featured-products .best-sellers__products li {
-    margin: 0 10px;
-  }
-}
-
-.featured-products .best-sellers__products li:nth-child(5n) {
-  margin-right: 0;
-}
-
-.featured-products .product__icons {
-  display: none;
-}
-
-.featured-products .best-sellers-product:hover .product__image {
-  display: block;
-}
-
-.featured-products .best-sellers-product:hover .product__icons {
-  display: block;
-} */
-
-/* .featured-products .container:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.featured-products .best-sellers__products:after {
-  content: "";
-  display: block;
-  clear: both;
-} */
-
 .featured-products .product-rate {
   padding-bottom: 54px;
 }
