@@ -1,0 +1,139 @@
+.head-products.underline {
+  margin-bottom: 60px;
+}
+
+.product-item {
+  margin-bottom: 30px;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 270px;
+  margin-right: 25px;
+}
+
+.product-image img {
+  max-width: 270px;
+}
+
+.product-description {
+  width: calc(100% - 320px);
+  margin-left: 25px;
+  padding-top: 27px;
+}
+
+.product-description .header {
+  margin-bottom: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.9px;
+  color: #333;
+}
+
+.product-description .price {
+  margin-bottom: 25px;
+}
+
+.product-description .rating {
+  margin-bottom: 25px;
+}
+
+.product-description .description {
+  overflow: hidden;
+  height: 95px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  color: #232323;
+  margin-bottom: 10px;
+}
+
+.product-description .categories {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  color: #999;
+  margin-bottom: 25px;
+}
+
+.product-description .buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-description .buttons > div:not(:last-child) {
+  border: 1px solid #eee;
+  margin-right: 10px;
+}
+
+ul.buttons li {
+  border: 1px solid #eee;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.buttons li:not(:last-child) {
+  margin-right: 10px;
+}
+
+ul.buttons li.large {
+  width: 150px;
+}
+
+ul.buttons li.square {
+  width: 50px;
+}
+
+ul.buttons li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.buttons .add .text {
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.7px;
+}
+
+
+/*Whole buttons are links*/
+.buttons-test {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-test a {
+    border: 1px solid #eee;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    color: #333;
+}
+
+.buttons-test a.large {
+    width: 150px;
+}
+
+.buttons-test a.small {
+    width: 50px;
+}
+
+.buttons-test span.text{
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.7px;
+}
+/*End buttons*/

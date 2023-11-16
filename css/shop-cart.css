@@ -1,0 +1,382 @@
+/* Start Table */
+table {
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+th, td {
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  height: 100%;
+}
+
+thead tr {
+  height: 60px;
+}
+
+tbody tr {
+  height: 190px;
+}
+
+tfoot tr {
+  height: 65px;
+}
+
+th {
+  text-align: center;
+  padding: 25px 0;
+  font-weight: normal;
+}
+
+td.product {
+  max-width: 409px;
+  width: 36%;
+}
+
+td.color {
+  max-width: 189px;
+  width: 16.5%;
+}
+
+td.quantity {
+  max-width: 169px;
+  width: 15%;
+}
+
+td.price {
+  max-width: 179px;
+  width: 16%;
+}
+
+td.total {
+  max-width: 190px;
+  width: 16.5%;
+}
+
+/* table-product*/
+td.product {
+  padding: 45px 35px;
+  text-align: center;
+}
+
+td.product .image {
+  padding-right: 10px;
+  float: left;
+}
+
+td.product .image img {
+  max-width: 80px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+td.product .text {
+  padding: 42px 0;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.7px;
+}
+
+/* table-color & size*/
+td.color {
+  padding: 80px 0;
+}
+
+td.color div {
+  margin: 0 auto;
+  max-width: 80px;
+}
+
+td.color p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: 0.35px;
+  color: #232323;
+}
+
+td.quantity {
+  padding: 77px 0;
+}
+
+td.quantity div {
+  margin: 0 auto;
+  max-width: 50px;
+  text-align: center;
+}
+
+td.quantity input {
+  color: #232323;
+  margin: 0 auto;
+  padding: 12px 0;
+  max-width: 50px;
+  text-align: center;
+  border: 1px solid #d4d4d4;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+}
+
+td.quantity input::placeholder {
+  color: #232323;
+}
+
+td.quantity p {
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+}
+
+td.price {
+  padding: 87px 0;
+}
+
+td.price div {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 36px;
+}
+
+td.price p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.4px;
+  color: #232323;
+}
+
+td.total {
+  padding: 87px 0;
+  max-width: 190px;
+}
+
+td.total .price {
+  float: left;
+  padding-left: 40px;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  color: #232323;
+}
+
+td.total .delete {
+  float: right;
+  padding-right: 22px;
+  font-size: 16px;
+}
+
+tfoot tr td.buttons {
+  text-align: right;
+  padding: 15px 24px 15px 0;
+}
+
+tfoot tr td.buttons .update {
+  min-width: 130px;
+  height: 35px;
+}
+
+tfoot tr td.buttons a.continue {
+  max-width: 190px;
+  width: 100%;
+  padding: 7.5px 18.5px;
+  height: 35px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+/*--End Table--*/
+
+.delete-product {
+  text-decoration: none;
+  color: #232323;
+}
+
+.cell.buttons {
+  width: 100%;
+  text-align: right;
+  padding: 15px 24px 15px 0;
+}
+
+.cell.buttons .update {
+  min-width: 130px;
+  max-height: 35px;
+  min-height: 35px;
+  text-align: center;
+}
+
+.cell.buttons .continue {
+  min-width: 190px;
+  height: 35px;
+  margin-left: 20px;
+}
+
+/* Start Checkout*/
+
+  /* Start Coupons and Gifts-codes */
+  .coupons > div:first-child {
+    float: left;
+    margin-right: 15px;
+  }
+
+  .coupons > div:last-child {
+    float: right;
+    margin-left: 15px;
+  }
+
+  .coupons:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .coupons > div {
+    width: calc(50% - 15px);
+  }
+
+  .coupons {
+    margin-bottom: 65px;
+  }
+
+  .coupons .input-text {
+    width: calc(100% - 132px);
+    float: left;
+  }
+
+  .coupons .input-button {
+    max-width: 100%;
+    width: 132px;
+    height: 45px;
+    text-align: center;
+    float: left;
+  }
+
+  .coupons .input-data:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  /*--End Coupons and Gifts-codes--*/
+
+  /* Start Shipping and Shopping Calculation */
+  .checkout .shipping {
+    margin-bottom: 30px;
+  }
+
+  .checkout .shipping select.input-text {
+    color: #232323;
+    padding: 0 19px 0 22px;
+  }
+
+  .checkout .ship input, select {
+    margin-bottom: 20px;
+  }
+
+  .checkout .ship .input-button {
+    max-width: 150px;
+    width: 100%;
+    max-height: 36px;
+    min-height: 36px;
+    text-align: center;
+  }
+
+  .checkout .shipping .ship {
+    max-width: calc(50% - 15px);
+    width: 100%;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .checkout .shipping .cart-calc {
+    max-width: calc(50% - 15px);
+    width: 100%;
+    float: right;
+    margin-left: 15px;
+  }
+  .checkout .shipping::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .cart-calc .calc-body {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #a3a2a3;
+    margin-bottom: 20px;
+  }
+
+  .calc-body .name {
+    float: left;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: #232323;
+  }
+
+  .calc-body .value {
+    float: right;
+  }
+
+  .calc-body .subtotal::after, .coupon::after, 
+  .shipping::after, .total::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .calc-body .up {
+    border-bottom: 1px solid #a3a2a3;
+    padding: 32px 37px 39px;
+    height: 160px;
+  }
+
+  .calc-body .down {
+    padding: 35px 37px 34px;
+    height: 80px;
+  }
+
+  .calc-body .subtotal {
+    margin-bottom: 33px;
+  }
+
+  .calc-body .subtotal .value {
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    line-height: 20px;
+    color: #232323;
+  }
+
+  .calc-body .coupon {
+    margin-bottom: 26px;
+  }
+
+  .calc-body .down .total .value {
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    color: #232323;
+  }
+
+  .cart-calc .input-button {
+    float: right;
+    min-width: 185px;
+    max-width: 215px;
+    width: 100%;
+    height: 50px;
+  }
+  /*--End Shipping and Shopping Calculation--*/
+/*--End Checkout--*/

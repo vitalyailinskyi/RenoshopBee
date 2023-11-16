@@ -1,0 +1,163 @@
+.checkout-data .input-title {
+    margin-bottom: 14px;
+    color: #232323;
+}
+
+.checkout-data .input-text {
+    margin-bottom: 21px;
+}
+
+.checkout-data::after, .name::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.required {
+    color: #dc4b4e;
+}
+
+.billing.two-columns.left {
+    float: left;
+    width: calc(60% - 14px);
+    margin-right: 14px;
+}
+  
+.order-checkout.two-columns.right {
+    float: right;
+    width: calc(40% - 14px);
+    margin-left: 14px;
+}
+
+.order-checkout.two-columns.right::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.name-block .two-columns.left, 
+.contact-info-block .two-columns.left {
+    float: left;
+    width: calc(50% - 32px);
+    margin-right: 32px;
+}
+
+.name-block .two-columns.right, 
+.contact-info-block .two-columns.right {
+    float: right;
+    width: calc(50% - 32px);
+    margin-left: 32px;
+}
+
+.up {
+    border: 1px solid #a3a2a3;
+    padding: 36px 24px 33px 32px;
+}
+
+.down {
+    border: 1px solid #a3a2a3;
+    border-top: none;
+    padding: 34px 24px 28px 31px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.order-head::after, .product-list li::after, 
+.order-body > div::after, .order-footer > div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.order-head {
+    padding-bottom: 13px;
+}
+
+.breakline {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.order-checkout .up, .order-checkout .down {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #232323;
+}
+
+ul.product-list {
+    padding: 26px 0;
+}
+
+ul.product-list li {
+    margin-bottom: 18px;
+}
+
+ul.product-list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.order-body .subtotal {
+    padding-top: 26px;
+    margin-bottom: 18px;
+}
+
+.order-body .shipping {
+    padding-bottom: 36px;
+}
+
+.order-footer .total::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.order-footer .total {
+    padding-top: 32px;
+}
+
+.order-footer .total .left, .order-footer .total .right {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.11;
+    color: #232323;
+}
+
+.order-checkout .down div.checkbox-block {
+    margin-bottom: 20px;
+}
+
+.order-checkout .down div.text {
+    padding: 12px 57px 15px 19px;
+    margin-bottom: 23px;
+    background-color: #f8f8f8;
+}
+
+.order-checkout .down div.text p {
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #232323;
+}
+
+.order-checkout .down .input-text {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.7px;
+    color: #232323;
+}
+
+.main-order-button .green-button {
+    padding: 13px 19px;
+    margin-top: 12px;
+    width: 100%;
+    min-width: 136px;
+}

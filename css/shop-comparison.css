@@ -1,0 +1,150 @@
+/*+ Start of responsive table on div-s +*/
+/* Done based by this article: 
+https://wisdmlabs.com/blog/responsive-tables-using-css-div-tag/ */
+.table {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  border-left: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #232323;
+}
+
+.table-header {
+  display: table-header-group;
+}
+
+.table-header-cell {
+  display: table-cell;
+  padding: 22px 0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  color: #333;
+  border: 1px solid #e5e5e5;
+  border-left: none;
+}
+
+.table-body {
+  display: table-row-group;
+}
+
+.table-row {
+  display: table-row;
+}
+
+/* Row with images of products*/
+.table-row:nth-child(1) {
+  height: 190px;
+}
+
+/* Row with price of products*/
+.table-row:nth-child(2) {
+  height: 50px;
+}
+
+/* Row with rating of products*/
+.table-row:nth-child(3) {
+  height: 50px;
+}
+
+/* Row with model of products*/
+.table-row:nth-child(4) {
+  height: 50px;
+}
+
+/* Row with brand of products*/
+.table-row:nth-child(5) {
+  height: 50px;
+}
+
+/* Row with summary of products*/
+.table-row:nth-child(6) {
+  height: 183px;
+}
+
+/* Row with buttons to add/delete products*/
+.table-row:nth-child(7) {
+  height: 80px;
+}
+
+.table-body-cell {
+  display: table-cell;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: middle;
+}
+
+.table-header-cell:nth-child(1), 
+.table-body-cell:nth-child(1) {
+  width: 12.2%;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: normal;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.table-body-cell:not(:nth-child(1)) {
+  text-align: left;
+  padding-left: 31px;
+  padding-right: 39px;
+}
+
+.table-product-image {
+  text-align: center;
+}
+
+.table-product-image img {
+  width: 80px;
+  height: 100px;
+}
+
+.table-summary-text {
+  line-height: 1.71;
+  text-align: justify;
+}
+
+/*- End of responsive table on div-s -*/
+
+/* Styling for buttons add/delete product*/
+
+.functional-buttons {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.add-to-cart {
+  padding-top: 10px;
+  margin-bottom: 18px;
+}
+
+.add-to-cart a.white-button {
+  padding: 8px 26px;
+  width: 100%;
+  max-width: 160px;
+}
+
+.add-to-cart a.white-button:hover {
+  color: white;
+  background-color: var(--theme-green);
+  border: none;
+}
+
+.functional-buttons .delete {
+  width: 100%;
+  max-width: 48px;
+  margin: 0 auto; /*?? почему не выравнивается от .functional-buttons center*/
+}
+
+.delete-product {
+  text-decoration: none;
+  color: #232323;
+}

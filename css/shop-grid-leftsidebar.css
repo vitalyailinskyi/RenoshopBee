@@ -1,0 +1,346 @@
+* {
+  caret-color: transparent;
+}
+
+input {
+  caret-color: auto;
+}
+
+.left {
+  float: left;
+  width: 100%;
+  max-width: 260px;
+  margin-right: 16px;
+}
+
+.right {
+  float: left;
+  width: 100%;
+  max-width: calc(100% - 292px);
+  min-width: 260px;
+  margin-left: 16px;
+}
+
+.category-item {
+  list-style: square;
+  color: #c3c3c5;
+  padding-bottom: 20px;
+  margin-left: 17px;
+}
+
+.category-item:last-child {
+  padding-bottom: 0;
+}
+
+.category-item a {
+  color: #333;
+}
+
+.category-title {
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: #242628;
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 29px;
+}
+
+/*+ Start price-filter +*/
+
+/* Start custom price-range-slider */
+.price-filter input[type="range"] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+  margin-bottom: 10px;
+}
+
+.price-filter input[type="range"]:focus {
+  outline: none; /* Removes the blue border. 
+  You should probably do some kind of focus styling 
+  for accessibility reasons though. */
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+/* slider cursor */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: goldenrod;
+  margin-top: -4px;
+}
+
+/* End custom price-range-slider */
+
+.price-inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-inputs input {
+  width: calc(50% - 25px);
+  border: 1px solid #eee;
+  margin-right: 10px;
+  text-align: center;
+  padding: 6px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #232323;
+}
+
+.price-inputs button {
+  width: 30px;
+  caret-color: transparent;
+  background: var(--theme-green);
+}
+
+.price-inputs button a {
+  font-size: 16px;
+  color: #fefefe;
+  padding: 8px;
+}
+/*-- End price-filter --*/
+
+/*+ Start Size +*/
+.sizes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sizes button {
+  width: 45px;
+  padding: 10px 0;
+  text-align: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #777;
+}
+
+.sizes button:last-child {
+  margin-right: 0;
+}
+
+.sizes button.chosen {
+  background: var(--theme-green);
+  color: #fff;
+}
+
+/*- End Size -*/
+
+.radio-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-inputs li {
+  margin-bottom: 10px;
+}
+
+.radio-inputs li span {
+  margin-left: 10px;
+  /* -webkit-appearance: none; */
+  
+}
+
+
+.banner-hot-trend {
+  width: 100%;
+  max-width: 260px;
+  height: 270px;
+  padding: 66px 21px;
+  background-image: url("/images/relaxed-498245-1920.png");
+}
+
+.banner-hot-trend > div {
+  height: 100%;
+  width: 100%;
+  padding: 3px;
+  background: #232323;
+}
+
+.banner-hot-trend .banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #232323;
+  color: white;
+  border: 2px solid #a1a1a1;
+}
+
+.banner span, sup {
+  font-size: 8px;
+  margin-right: 10px;
+}
+
+.banner span:last-child {
+  margin-right: 0;
+}
+
+.banner .stars {
+  margin-bottom: 10px;
+}
+
+.banner .off {
+  text-transform: uppercase;
+  font-family: Droid Serif;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+
+.banner p:nth-child(3) {
+  font-size: 24px;
+}
+
+/*Start Product items*/
+.products-items {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-gap: 12px;
+  padding-bottom: 57px;
+}
+
+.products-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* max-width: 270px; */
+  width: 100%;
+  /* max-height: 506px; */
+  /* margin: 0 5px; */
+}
+
+.products-item:first-child {
+  margin-left: 0;
+}
+
+.products-item:last-child {
+  margin-right: 0;
+}
+
+.products-item__labels {
+  position: absolute;
+  z-index: 2;
+  right: 24px;
+  top: 24px;
+}
+
+.products-item__label {
+  /* flex: 0 0 48px; */
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.products-item__label:not(:first-child) {
+  margin-top: 5px;
+}
+
+.label_sale {
+  background: #db2912;
+}
+
+.label_new {
+  background: var(--theme-green);
+}
+
+.products-item:hover {
+  cursor: pointer;
+  transition: box-shadow 0.7s;
+  box-shadow: 0px 1px 10px 0 rgba(0, 0, 0, 0.55);
+}
+
+.product-item__image {
+  padding-bottom: calc(400 / 270 * 100%);
+}
+
+.product-item__image img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.product-item__body {
+  position: absolute;
+  padding: 5px 10px;
+  bottom: 0;
+}
+
+.product-item__title {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.7px;
+  color: #333;
+}
+
+.product-item__text {
+  font-size: 12px;
+}
+
+.product-item__prices {
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-top: 5px;
+}
+
+.product-item__price {
+  font-family: Droid Serif;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  line-height: 1.33;
+  margin-bottom: 20px;
+  color: var(--theme-green);
+}
+
+.product-item__old-price {
+  font-size: 14px;
+  color: #555;
+  padding-left: 10px;
+  text-decoration: line-through;
+}
+
+.product-item__rating {
+  position: absolute;
+  /* margin-top: 30px; */
+  height: 17px;
+  bottom: 5px;
+}
+
+.product-item__rating img {
+  height: 100%;
+}
+
+/*--End Product items--*/
+
