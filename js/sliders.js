@@ -5,11 +5,9 @@ var $media_fashion = 600;
 var $carousel_featured = $(".products");
 var $media_featured = 600;
 function showSliderScreen($widthScreen, $block_id, $media_query) {
-  console.log($widthScreen);
 
   if ($widthScreen <= $media_query) {
     if (!$block_id.hasClass("slick-initialized")) {
-      console.log("here");
       $block_id.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
