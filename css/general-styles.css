@@ -1,3 +1,6 @@
+/*Подключение шрифтов (в css для предпроцессора) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 /*Обнуление*/
 * {
   padding: 0;
@@ -293,7 +296,7 @@ body {
 
 .header__info a {
   display: inline-block;
-  font-family: Roboto, "Times New Roman", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.35px;
   text-decoration: none;
@@ -393,7 +396,7 @@ body {
 }
 
 .logo__text--big {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 372px) {
@@ -596,8 +599,8 @@ body {
 .content {
   margin-top: 160px;
 
-  /*VALUE FOR stie not be broken */
-  overflow: auto;
+  /*VALUE if site is no broken */
+  /* overflow: auto; */
 }
 
 @media screen and (max-width: 768px) {
@@ -623,7 +626,7 @@ cart-table, inputs and buttons */
 }
 
 .breadscrums a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -680,7 +683,7 @@ cart-table, inputs and buttons */
 }
 
 .input-header {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   text-align: left;
   color: #232323;
@@ -698,7 +701,7 @@ cart-table, inputs and buttons */
   width: 100%;
   padding-left: 21px;
   padding-right: 18px;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   text-align: left;
   color: #232323;
@@ -726,7 +729,7 @@ cart-table, inputs and buttons */
   height: 40px;
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 1.4px;
@@ -1078,7 +1081,7 @@ total number of products, and sort input*/
 
 .product-results,
 .product-sort select {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.35px;
@@ -1098,7 +1101,7 @@ total number of products, and sort input*/
 }
 
 .price {
-  font-family: Droid Serif;
+  font-family: "Droid Serif", serif;
   font-size: 18px;
   letter-spacing: 0.9px;
   line-height: 1.33;

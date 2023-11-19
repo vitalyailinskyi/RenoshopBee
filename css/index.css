@@ -2,22 +2,23 @@
   font-family: Poppins, sans-serif;
   font-weight: 700;
   font-size: 30px;
+  line-height: 0.8;
   text-transform: uppercase;
   color: #333;
   margin-bottom: 10px;
 }
 
 .section__subtitle {
-  font-family: DroidSerif;
+  font-family: "Droid Serif", serif;
   font-size: 14px;
   font-style: italic;
+  letter-spacing: 0.35px;
   color: var(--theme-green);
 }
 
 .section__text {
   font-family: Poppins, sans-serif;
   font-size: 14px;
-  letter-spacing: 2px;
   font-weight: 500;
   letter-spacing: 0.35px;
   color: #333;
@@ -34,20 +35,7 @@
   }
 
   .section__subtitle {
-    font-family: DroidSerif;
     font-size: 18px;
-    font-style: italic;
-    letter-spacing: 0.35px;
-    color: var(--theme-green);
-  }
-
-  .section__text {
-    font-family: Poppins, sans-serif;
-    font-size: 14px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    letter-spacing: 0.35px;
-    color: #333;
   }
 }
 
@@ -266,21 +254,7 @@
 }
 
 .best-sellers__subtitle {
-  font-family: DroidSerif;
-  font-size: 14px;
-  font-style: italic;
-  letter-spacing: 0.35px;
-  color: var(--theme-green);
   margin-bottom: 25px;
-}
-
-.best-sellers__text {
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  letter-spacing: 0.35px;
-  color: #333;
 }
 
 .products__item,
@@ -448,7 +422,7 @@
 }
 
 .offer__text {
-  font-family: "Droid Serif", sans-serif;
+  font-family: "Droid Serif", serif;
   font-size: 13px;
 }
 
@@ -618,7 +592,7 @@
 
 .discount {
   grid-area: discount;
-  background-image: url("../images/slide5.png");
+  background-image: url("../images/slide5.webp");
   height: 100%;
   display: flex;
   flex-direction: column;
