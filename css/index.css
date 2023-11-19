@@ -379,6 +379,7 @@
   .product__rate {
     width: 100%;
     max-width: 125px;
+    height: 19px;
     margin-bottom: 10px;
   }
 
