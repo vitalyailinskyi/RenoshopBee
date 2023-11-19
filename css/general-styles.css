@@ -1036,9 +1036,9 @@ cart-table, inputs and buttons */
   gap: 12px;
 }
 
-.footer__copyright--sponsors a img {
+/* .footer__copyright--sponsors a img {
   width: 45px;
-}
+} */
 
 @media (max-width: 570px) {
   .footer__copyright .footer__container {
