@@ -581,6 +581,7 @@
 
 @media (max-width: 768px) {
   .discount-trends__wrapper {
+    max-height: 500px;
     /* grid-template-areas: "discount" "trends";
     grid-template-columns: 1fr;
     grid-template-rows: minmax(auto, 300px) minmax(auto, 250px); */
@@ -687,6 +688,7 @@
 
 @media (max-width: 438px) {
   .discount-trends__wrapper {
+    max-height: 600px;
     grid-template-rows: minmax(auto, 300px) minmax(auto, 300px);
   }
 
